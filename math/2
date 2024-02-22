@@ -1,0 +1,15 @@
+import math
+
+def area_of_trapezoid(height, base1, base2):
+    return ((base1 + base2) * height) / 2
+
+base1 = float(input("Lenth of the first base : "))
+base2 = float(input("Lenth of the second base : "))
+height = float(input("Height : "))
+
+area = area_of_trapezoid(base1, base2, height)
+
+print(area)
+
+
+
